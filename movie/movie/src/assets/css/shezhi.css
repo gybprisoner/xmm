@@ -1,0 +1,35 @@
+.shetopa{
+    min-height: 45px;
+    background: #ffff !important;
+   
+}
+ .setonb{
+     width: 100%;
+     position: fixed;
+     top:0;left: 0;
+    display: flex;
+    background-color: #fff;
+    border-bottom:1px solid #f0eaea;
+     z-index: 100;
+  }
+  .setonb i{
+    height:44px;
+    line-height: 44px;
+    z-index: 100;
+    display: block;
+    padding:0 25px 0 12px;
+    font-size:20px;
+    top:0;
+    left: 0;
+  }
+  .setonb p{
+    /* display: block; */
+    font-size:18px;
+    margin:0;
+    padding:0;
+    line-height: 43px;
+    top:0;
+    width:68%;
+    text-align: center;
+    color: #333
+  }

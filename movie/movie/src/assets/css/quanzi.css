@@ -1,0 +1,47 @@
+.quehuan>ul{
+    width: 100%;
+}
+.quehuan{
+    width: 300%;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: left 0.3s;
+}
+.zhedang{
+    width: 100%;
+    overflow: hidden;
+}
+.daodi{
+    width: 100%;
+    height: 60px;
+    color: #1f1c1ad6;
+    text-align: center;
+    line-height: 45px;
+    font-size: 13px;
+}
+.yangqz{
+    border-bottom: 2px solid #af292d; 
+    color: #af292d;
+}
+.sgdb>span{
+    width: 33.5%;
+    height: 45px;
+}
+.sgdb{
+    margin: 0 auto;
+    width: 100%;
+    text-align:center;
+    line-height: 45px;
+    height: 45px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom:1px solid #d0cece59; 
+}
+.quanzi{
+    width: 100%;
+    color: #46423fd6;
+    background-color: white;
+}

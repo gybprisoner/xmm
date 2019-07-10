@@ -1,0 +1,157 @@
+<view class='ipt'>
+  <van-search placeholder="搜索电影" v-model="value" />
+</view>
+<!-- 第一行 -->
+<view>
+  <view class='reying'>
+    <text>喜剧</text>
+    <text>查看更多 ></text>
+  </view>
+  <!-- 图片区域 -->
+  <movable-area style='width:auto'>
+    <movable-view animation scroll-x style='height:220rpx;width:1280rpx' direction='horizontal' inertia='true' out-of-bounds>
+      <view class='titleone'>
+      <!-- 第一张 -->
+      <view wx:for="{{movielist}}" wx:key="{{index}}">
+          <image src="{{item.images.small}}"></image>
+          <view class='fname'>{{item.title}}</view>
+          <view class='xingxing'>
+            <van-rate
+              class="xi"
+              readonly
+              v-model=value
+              allow-half
+              void-icon="star"
+              void-color="#eee"
+              size="11"
+              gutter="1"
+            />
+            <view class='num'>{{item.rating.average}}分</view>
+          </view>
+      </view>
+    </view>
+    </movable-view>
+  </movable-area>
+      
+</view>
+<!-- 第二行 -->
+<view style='width:100%;height:380rpx;'></view>
+<view>
+  <view class='reying'>
+    <text>爱情</text>
+    <text>查看更多 ></text>
+  </view>
+  <!-- 图片区域 -->
+  <movable-area style='width:auto'>
+    <movable-view animation scroll-x style='height:220rpx;width:1280rpx' direction='horizontal' inertia='true' out-of-bounds>
+      <view class='titleone'>
+      <!-- 第一张 -->
+      <view wx:for="{{movielist4}}" wx:key="{{index}}">
+          <image src="{{item.images.small}}"></image>
+          <view class='fname'>{{item.title}}</view>
+          <view class='xingxing'>
+            <van-rate
+              class="xi"
+              readonly
+              v-model=value
+              allow-half
+              void-icon="star"
+              void-color="#eee"
+              size="11"
+              gutter="1"
+            />
+            <view class='num'>{{item.rating.average}}分</view>
+          </view>
+      </view>
+    </view>
+    </movable-view>
+  </movable-area>
+      
+</view>
+<!-- 第三行 -->
+<view style='width:100%;height:380rpx;'></view>
+<view>
+  <view class='reying'>
+    <text>动作</text>
+    <text>查看更多 ></text>
+  </view>
+  <!-- 图片区域 -->
+  <movable-area style='width:auto'>
+    <movable-view animation scroll-x style='height:220rpx;width:1280rpx' direction='horizontal' inertia='true' out-of-bounds>
+      <view class='titleone'>
+      <!-- 第一张 -->
+      <view wx:for="{{movielist3}}" wx:key="{{index}}">
+          <image src="{{item.images.small}}"></image>
+          <view class='fname'>{{item.title}}</view>
+          <view class='xingxing'>
+            <van-rate
+              class="xi"
+              readonly
+              v-model=value
+              allow-half
+              void-icon="star"
+              void-color="#eee"
+              size="11"
+              gutter="1"
+            />
+            <view class='num'>{{item.rating.average}}分</view>
+          </view>
+      </view>
+    </view>
+    </movable-view>
+  </movable-area>  
+</view>
+<!-- 第四行 -->
+<view style='width:100%;height:380rpx;'></view>
+<view>
+  <view class='reying'>
+    <text>科幻</text>
+    <text>查看更多 ></text>
+  </view>
+  <!-- 图片区域 -->
+  <movable-area style='width:auto'>
+    <movable-view animation scroll-x style='height:220rpx;width:1280rpx' direction='horizontal' inertia='true' out-of-bounds>
+      <view class='titleone'>
+      <!-- 第一张 -->
+      <view wx:for="{{movielist}}" wx:key="{{index}}">
+          <image src="{{item.images.small}}"></image>
+          <view class='fname'>{{item.title}}</view>
+          <view class='xingxing'>
+            <van-rate
+              class="xi"
+              readonly
+              v-model=value
+              allow-half
+              void-icon="star"
+              void-color="#eee"
+              size="11"
+              gutter="1"
+            />
+            <view class='num'>{{item.rating.average}}分</view>
+          </view>
+      </view>
+    </view>
+    </movable-view>
+  </movable-area>  
+</view>
+<!-- 第三行 -->
+<view style='width:100%;height:380rpx;'></view>
+<view>
+  <view class='reying'>
+    <text>动作</text>
+    <text>查看更多 ></text>
+  </view>
+  <!-- 图片区域 -->
+  <movable-area style='width:auto'>
+    <movable-view animation scroll-x style='height:220rpx;width:1280rpx' direction='horizontal' inertia='true' out-of-bounds>
+      <view class='titleone'>
+      <!-- 第一张 -->
+      <view wx:for="{{movielist}}" wx:key="{{index}}">
+          <image src="{{item.images.small}}"></image>
+          <view class='fname'>{{item.title}}</view>
+         
+      </view>
+    </view>
+    </movable-view>
+  </movable-area>  
+</view>

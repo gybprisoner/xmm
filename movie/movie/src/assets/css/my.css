@@ -1,0 +1,28 @@
+.page-tabbar{
+    overflow: hidden;
+   
+  }
+  .page-wrap{
+    overflow:auto;
+    
+  }
+  .listmm{
+    display: flex;
+    justify-content: space-around;
+  }
+  .mylist{
+    width:100%;
+    padding:25px 5px;
+    border-right:1px solid #f5f5f5;
+    border-bottom:1px solid #f5f5f5;
+    text-align:center;
+  }
+ .listmm .iconfont{
+    font-family: "iconfont" !important;
+    font-size:28px;
+  }
+  .mylist p{
+    margin:10px 1px 0 1px;
+    font-size:12px;
+    color:#46423f;
+  }

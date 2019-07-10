@@ -1,0 +1,90 @@
+ /* 登录后我的页面页头样式 */
+ .huanyin{
+    font-size: 13.5px;
+  }
+  .meiyi{
+    margin:10px 0 0 0;
+    color: #f5f5f577;
+  }
+  .page-head{
+    width:100%;
+    height:182px;
+    top:0;
+    z-index: 100;
+    padding:0;
+    margin:0;
+    margin-bottom:20px;
+    background-color:#99827a;
+   
+    /* display:flex;
+    justify-content:start; */
+  }
+  /* 每日签到 */
+  .portrait{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+
+  }
+  .portrait img{
+    width: 100%;
+    overflow: hidden;
+    border-radius:50%;
+  }
+  .daily{
+    display:flex;
+    float: right;
+    font-size:14px;
+    color:#f5f5f5;
+  }
+  .daily a{
+    margin:10px 10px 0 10px;
+    font-size:14px;
+    text-decoration: none;
+    color:#f5f5f5;
+  }
+  /* 头像和个性签名 */
+  .page-head2{
+    width:100%;
+    padding:0 0 0px 10px;
+    margin-top:60px;
+    display: flex;
+  }
+  /* 个性签名样式 */
+  .myuname{
+    padding:22px 10px 10px 18px;
+    color:#f5f5f5;
+  }
+  /* 会员等级 */
+  .grade{
+    width:100%;
+    padding:18px 0 3px 0;
+  }
+  .myline{
+    /* width:100%; */
+    height:4px;
+    margin:0 15px;
+    background-color:#d0aca1;
+  }
+  .mygrade{
+    font-size:12px;
+    color:#f5f5f5;
+    display:flex;
+    justify-content: space-around;
+  }
+  .mygrade h4{
+    margin:5px 0;
+    font-size:15px;
+  }
+  /* 金牌会员 */
+  .member{
+    text-align: center;
+    font-size:12px;
+    color:#f5f5f5;
+  }
+  .payou{
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }

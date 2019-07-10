@@ -1,0 +1,69 @@
+.reying{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.reying>text{
+  width: 190rpx;
+  height: 60rpx;
+  font-size: 27rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+.reying>text:first-child{
+  font-weight: 700;
+}
+.reying>text:nth-child(2){
+  color: green;
+}
+/* 整行的宽高 */
+.titleone{
+  width: 2700px;
+  height: 400rpx;
+  padding-left: 20rpx;
+  padding-top: 20rpx;
+  overflow: hidden;
+}
+/* 单个电影的边框 */
+.titleone>view{
+  display: inline-block;
+  width: 190rpx;
+  height: auto;
+  margin: 16rpx;
+}
+/* 电影封面 */
+.titleone>view>image{
+  width: 190rpx;
+  height: 250rpx;
+  border-radius: 5px;
+}
+/* 评分设置 */
+.xingxing{
+  width: 190rpx;
+  height: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.xi{
+  height: 20rpx;
+  width: 70% !important;
+}
+/* 电影名 */
+.fname{
+  font-size: 27rpx;
+  width: 200rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+/* 评分分数 */
+.num{
+  width: 30%;
+  height: 54rpx;
+  font-size: 20rpx;
+  text-align: left;
+  line-height: 52rpx;
+  color: rgb(116, 114, 114);
+}

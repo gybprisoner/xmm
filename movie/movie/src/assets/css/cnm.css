@@ -1,0 +1,101 @@
+.zzry_ul{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.jjsy_ul{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.xiaoguo{
+    transition: all 0.4s;
+}
+/* 效果 */
+.hmfa>div>ul>li>div>img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+.hmfa>div>ul>li>p{
+    width: 80%;
+    height: 30px;
+    font-size: 11px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+ }
+.hmfa>div>ul>li>div{
+    width: 100%;
+    height: 150px;
+}
+.hmfa>div>ul>li{
+    width: 34%;
+    height: 180px;
+    overflow: hidden;
+}
+.hmfa>div>ul{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    display: flex;
+}
+.hmfa>div{
+    width: 50%;
+    height: 180px;
+    overflow: hidden;
+}
+/* 滚动div */
+.hmfa{
+    width: 200%;
+    height: 180px;
+    margin-top: 5px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+.zcd{
+    width: 100%;
+    height: 238px;
+    overflow: hidden;
+}
+/* 大 */
+.rysy>span:nth-child(1){
+    display: inline-block;
+    text-align: center;
+    width: 23%;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 7%;
+}
+.rysy>span:nth-child(2){
+    display: inline-block;
+    text-align: center;
+    width: 23%;
+    height: 35px;
+    line-height: 35px;
+}
+.rysy>span:nth-child(3){
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 32%;
+}
+.yangsp{
+    border-bottom: 2px solid #af292d; 
+    color: #af292d;
+}
+.rysy{
+    color: #46423fd6;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+/* 两个 */

@@ -1,0 +1,36 @@
+ /* 意见反馈和关于我们样式 */
+ .szan{
+    animation:fadeInRightBig 0.4s;
+  }
+  .feedback,.aboutus{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #f0eaea;
+    background-color: #fff;
+    align-items: center;
+    /* margin-top:1%; */
+  }
+  .feedback p, .aboutus p{
+    margin: 0;
+    padding:0 20px;
+  }
+ 
+  .feedback .iconfont{
+    padding:0 20px;
+    font-size:18px;
+    color:lightgray;
+    line-height: 53px;
+  }
+  .aboutus .iconfont{
+    padding:0 20px;
+    font-size:18px;
+    color:lightgray;
+    line-height: 53px;
+  }
+  /* 退出登录 */
+  .logout{
+    margin-top:5%;
+    border-radius: 0;
+    outline:none;
+    background: rgb(240, 239, 239);
+  }

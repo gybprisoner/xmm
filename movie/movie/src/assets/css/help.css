@@ -1,0 +1,98 @@
+.bzzx{
+    animation:fadeInRightBig 0.4s;
+}
+.wyzx>button{
+    width: 100%;
+    height: 50px;
+    background-color: #998278;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.wyzx{
+    width: 95%;
+    height: 50px;
+    margin: 11px auto;
+}
+.mo_two>div:nth-child(1){
+    border-bottom:1px solid #d0cece3b; 
+}
+.mo_two>div{
+    width: 95%;
+    padding-left: 5%;
+    height: 55px;
+    line-height: 55px;
+}
+.mo_two{
+    width: 70%;
+    height: 110px;
+}
+.mo_one>div:nth-child(3){
+    font-size: 28px;
+}
+.mo_one>div:nth-child(2){
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+}
+.mo_one>div:nth-child(1){
+    width: 100%;
+    height: 57px;
+    font-size: 32px;
+    line-height: 64px;
+    color: #998278;
+}
+.mo_one{
+    width: 30%;
+    height: 110px;
+    text-align: center;
+    border-right:1px solid #d0cece3b;
+    font-size: 11px;
+}
+.mob{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    font-size: 13px;
+    color: #46423f;
+    border-top:1px solid #d0cece3b; 
+    border-bottom:1px solid #d0cece3b; 
+}
+.cj_top{
+    width: 95%;
+    padding-left: 5%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom:1px solid #d0cece3b; 
+}
+.cjwt{
+    width: 100%;
+}
+.cnxh>p{
+    width: 95%;
+    padding-left: 5%;
+    margin: 0;
+    width: 95%;
+    height: 45px;
+    line-height: 45px;
+    color: #46423fbf;
+    border-bottom:1px solid #d0cece3b; 
+    font-size: 12px;
+}
+.cnxh>div{
+    width: 95%;
+    padding-left: 5%;
+    height: 50px;
+    line-height: 50px;
+    color: #46423f;
+    border-bottom:1px solid #d0cece3b; 
+}
+.cnxh{
+    width: 100%;
+    height: 230px;
+}
+.chenchen{
+    width: 100%;
+    height: 15px;
+    background-color: #efeff485;
+}

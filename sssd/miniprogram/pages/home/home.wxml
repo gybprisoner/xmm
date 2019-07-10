@@ -1,0 +1,95 @@
+<!--pages/home/home.wxml-->
+<!--一部电影区域-->
+<scroll-view   scroll-y="true" style="height:200px"  class="page-body" bindscrolltolower="loadMore">
+  <view class="swiper">
+    <swiper class="swiper-box" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
+            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+            indicator-color="#fff" indicator-active-color="red">
+        <block   wx:for-items="{{banner_url}}" wx:key="item.id">
+            <navigator url="../blogList/blogList">
+              <swiper-item>
+                <block wx:if="{{item}}">
+                  <image class="imgw" src="{{item.url}}"  mode="aspectFill"/>
+                </block>
+                <block wx:else>
+                  <image src="../../images/default_pic.png" mode="aspectFill"></image>
+                </block>
+              </swiper-item>
+            </navigator>
+        </block>
+    </swiper>
+  </view>
+</scroll-view> 
+<van-tabs active="{{ active }}" >
+  <van-tab bindtap='p' :data-id="aa" title="正在热映">
+     <view wx:for="{{movielist}}" wx:key="{{index}}" class="movie">
+  <!--电影图片-->
+  <image class="movie-img" src='{{item.images.small}}'></image>
+  <!--电影介绍-->
+  <view class="movie-info">
+    <!--电影标题-->
+    <view class="movie-title">{{item.title}}</view>
+    <!--观众评分-->
+    <view>观众评分：
+      <text class="movie-score">{{item.rating.average}}</text>
+    </view>
+    <!--主演：多位-->
+    <view>主演：
+      <text wx:for="{{item.casts}}" wx:key="{{index}}">{{item.name}}/</text>
+      
+    </view>
+    <!--年份-->
+    <view>年份:{{item.year}}</view>
+    <!--详情按钮-->
+    <button class="movie-comment" data-id='{{item.id}}' bindtap='assd'>详情</button>
+  </view>
+</view>
+
+  </van-tab>
+  <van-tab title="立即上映" >
+   <view wx:for="{{movielist3}}" wx:key="{{index}}" class="movie">
+  <!--电影图片-->
+  <image class="movie-img" src='{{item.images.small}}'></image>
+  <!--电影介绍-->
+  <view class="movie-info">
+    <!--电影标题-->
+    <view class="movie-title">{{item.title}}</view>
+    <!--观众评分-->
+    <view>观众评分：
+      <text class="movie-score">{{item.rating}}</text>
+    </view>
+    <!--主演：多位-->
+    <view>想看：
+      <text >{{item.wish}}/</text>
+      
+    </view>
+    <!--年份-->
+    <view>年份:{{item.pubdate}}</view>
+    <!--详情按钮-->
+    <button class="movie-comment" data-id='{{item.id}}' bindtap='assd'>详情</button>
+  </view>
+</view></van-tab>
+  <van-tab title="top250" >
+    <view wx:for="{{movielist4}}" wx:key="{{index}}" class="movie">
+  <!--电影图片-->
+  <image class="movie-img" src='{{item.images.small}}'></image>
+  <!--电影介绍-->
+  <view class="movie-info">
+    <!--电影标题-->
+    <view class="movie-title">{{item.title}}</view>
+    <!--观众评分-->
+    <view>观众评分：
+      <text class="movie-score">{{item.rating.average}}</text>
+    </view>
+    <!--主演：多位-->
+    <view>主演：
+      <text wx:for="{{item.casts}}" wx:key="{{index}}">{{item.name}}/</text>
+      
+    </view>
+    <!--年份-->
+    <view>年份:{{item.year}}</view>
+    <!--详情按钮-->
+    <button class="movie-comment" data-id='{{item.id}}' bindtap='assd'>详情</button>
+  </view>
+</view></van-tab>
+</van-tabs>

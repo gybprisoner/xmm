@@ -1,0 +1,11 @@
+<van-field
+    value="{{ content }}"
+    placeholder="请输入评价"
+    border="{{ false }}"
+    bind:change="onContentChange"
+  />
+  <van-button type="danger" size="small" bindtap='uploadimg'>上传图片</van-button>
+   <view class='dss'>
+    <image  wx:for="{{images}}" wx:key="{{index}}" src="{{item}}" custom-class='ssss'></image>
+  </view>
+  <van-button type="danger" size="small" bindtap='upload'>上传评价</van-button>

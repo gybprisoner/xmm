@@ -1,0 +1,121 @@
+.com{
+    position:relative;
+    width:100%;
+    min-width:375px;
+    background:#fff;
+    animation:fadeInRightBig 0.4s;
+}
+/* 头部按钮 */
+.comhr{
+    width:100%;
+}
+.com-nav{
+    position:fixed;
+    width:36px;
+    height:36px;
+    background-color: rgba(153, 130, 120, 0.5);
+    border: 1px solid rgba(248, 248, 248, 0.5);
+    border-radius:50px;
+    margin:12px 16px;
+    z-index: 666;
+}
+.pad1{
+    margin:6px 5px 0px 4px;
+}
+/* 大图 */
+.hear{
+    width:100%;
+    min-width:100%;
+}
+.hear-img{
+    min-height:375px;
+    width:100%;
+}
+/* 文字 */
+.content{
+    display:flex;
+    position:relative;
+}
+.cont-san{
+    position:relative;
+    color:#ff5715 !important;
+    font-size:22px;
+    height:44px;
+    bottom:0px;
+}
+.cont-bt{
+    position:absolute;;
+    width:88px;
+
+}
+.pos1{
+    position: absolute;
+}
+.tx{
+    position:absolute;
+    min-width:88px;
+    text-align: center; 
+    margin-top: 2%;
+    margin-left: -2%;   
+}
+/* 导航 */
+/* 底部按钮 */
+ .ticketsw{
+     position:fixed;
+     width:100%;
+     bottom:0;
+     height:50px;
+     background:#fff;
+     /* padding:12px 16px; */
+ }
+ .butsw{
+     width:100%;
+     background:#998278;
+     color:#fff;
+     height:50px;
+ }
+/* 字体 边框  位置*/
+ .fs16{
+    font-size:16px !important;
+ }
+ .fs14{
+    font-size:14px !important;
+ }
+ .fs12{
+    font-size:12px !important;
+ }
+ .fs1{
+     white-space:nowrap;
+     text-overflow:ellipsis;
+     overflow:hidden;
+ }
+ .col1{
+    color:#46423f;
+}
+ .mv-tit{
+     position:relative;
+     padding:10px 0 10px 12px;
+     margin-top:0;
+     margin-bottom:0px;
+     padding-right:12px;
+ }
+ .mar1{
+     padding-bottom:30px;
+ }
+ .site-right5{
+     right:5px;
+  }
+ .fs-sty1{
+     text-decoration:line-through;
+  }
+ .empty{
+     height:10px;
+     overflow:hidden;
+     background:#f2f2f2;
+ }
+ .pos1{
+    position: absolute;
+ }
+ .pos2{
+     position:relative;
+ } 

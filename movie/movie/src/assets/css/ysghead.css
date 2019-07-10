@@ -1,0 +1,53 @@
+
+
+.yysg{
+    font-size: 25px;
+    margin-right:10%; 
+}
+.dizi_top{
+    display: flex;
+   
+    align-items: center;
+    padding: 2% 4% 2% 3% ;
+    position: fixed;
+    z-index: 20;
+    top:0;left:0;
+     justify-content: space-between;
+     background:#fff;
+     width:100%;
+     height: 50px;
+
+}
+.dizi_top_left{
+    display: flex;
+    /* overflow: hidden; */
+}
+ .dizi_top_left>div{
+     white-space:nowrap;
+     /* overflow: hidden; */
+     text-overflow: ellipsis;
+}
+.dizi_top_icon{
+    font-size: 1.6rem;
+}
+.dizi_top p{
+    margin: 0;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.dizi_top_right{
+    text-align: center;
+}
+.dizi_top_right>div{
+    font-size:20px;
+    height: 14px;
+}
+
+.dizi_top_left .ysghoutuo{
+    margin-top:1%; 
+    font-size:20px;
+    padding-right:1%; 
+}
+.dizi_top a{
+    color: #8f8f94;
+}

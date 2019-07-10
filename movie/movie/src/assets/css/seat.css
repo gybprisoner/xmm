@@ -1,0 +1,174 @@
+/*头部*/
+.ani3{
+    animation:fadeIn 0.5s;
+    background: #fff;
+}
+.zuo_top{
+    min-height: 45.8px;
+}
+/*头部标题*/
+.top_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #998278;
+    padding:1.3% 0;
+}
+.top_title p{
+    margin: 0;
+}
+.title_right,.title_left{/*两边*/
+    width:25%;
+    display: flex;
+    align-items: center;
+    color:#fff;
+    /* text-align: center; */
+}
+.title_right>.iconfont,.title_left>.iconfont{
+    font-size: 37px;
+}
+.title_right p,.title_left p{
+    color:#fff;
+    font-size: 10px;
+    white-space: nowrap;
+}
+.title_left{
+    width:25%;
+    padding-left:5.4%; 
+}
+.title_center{/*中间*/
+    width:50%;
+    text-align: center;
+}
+.title_center h5{
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+     margin-top:1%;
+     white-space: nowrap;
+}
+.title_center p{
+    margin-top:1%;
+    color: #fff;
+    font-size: 13px;
+}
+/*座位头*/    
+.seat_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+}
+.seat_title>div{
+    display: flex;
+}
+.seatcen{
+    margin:0 6%;
+    color: #ff5715;
+}
+.seatcen2{
+    color: #43a047;
+}
+.seat_title>div div{
+    font-size:18px;
+}   
+.seat_title>div p{
+    margin: 0;
+}
+/*屏幕*/
+.pm_img{
+    width: 100%;
+    background: url(../seat/1.png) no-repeat;
+    background-size:100%;
+    text-align: center;
+    min-height: 40px; 
+}
+
+.pm_img p{
+    margin: 0;
+    padding-top:5%; 
+    color: #666;
+    white-space: nowrap;
+}
+
+/*座位*/
+.seatazong{
+    padding-top:10%;
+    position: relative; 
+}
+.seatazong>div div{
+    font-size: 25px;
+    margin:0 0.2%;
+    color: #dcddde;
+}
+.seat1,.seat2,.seat3,.seat4,.seat5,.seat6,.seat7{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
+    margin-top:1.5%;
+}
+
+.zuoright{
+    width: 18px;
+    height: 85%;
+    background: rgba(125, 125, 125, .5);
+    border-radius: 10px;
+    position: absolute;
+    left:0%;bottom: 0%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around
+    /* padding: 1% 0; */
+}
+.zuoright P{
+    text-align: center;
+    color: #FFF;
+    margin: 0;
+    margin-top:35%;
+}
+
+
+/*底部 选座*/
+.seat_bot{
+    position: fixed;
+    left: 0%;bottom: 0%;
+    padding: 2%;
+    width: 100%;
+}
+.xuanseat>p{
+    margin: 0;
+    color: #333;
+    font-size: 12px;
+    /* padding:0.5% 0; */
+    /* border-bottom: 1px solid #dfdcdc; */
+    /* margin-bottom: 0.5%; */
+}
+.seathao{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+.seathao p{
+    margin: 0;
+    border: 1px solid #dfdcdc;
+    width: 80px;
+    text-align: center;
+    border-radius: 2px;
+    margin-right:5px; 
+    margin-top: 1%;
+}
+.seathao span{
+    margin-left:4%;
+    font-size: 15px;
+}
+/*底部按钮*/
+.seat_btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top:3% ;
+    padding-top:2%;
+    border-top:  1px solid #dfdcdc;
+}

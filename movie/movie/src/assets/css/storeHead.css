@@ -1,0 +1,59 @@
+.malltop{
+    min-height: 45px;
+}
+.mallheader{
+    position:fixed;
+    background:#998278 !important;
+    height:44px;
+    width: 100%;
+    top:0;left: 0;
+    z-index: 10;
+}
+.mall{ 
+    width:30%;
+    padding:0 12px;
+    color:#fff;
+}
+.mall span{
+    position:fixed;
+    font-size:14px;
+    top:12px;
+    white-space:nowrap;
+    color:#fff;
+}
+.mall img{
+    position:fixed;
+    top:7px;
+
+}
+
+.mall_1{
+    position:relative;
+    width:55%;
+    margin:0 auto;
+}
+.mall_2{
+    position:absolute;
+    border-radius:20px;
+    text-align: center;
+    width:100%; 
+    background: #fff;
+    margin:7px 12px; 
+    line-height:30px;
+    font-size:15px;
+    color:#000;
+    padding-right:20px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
+.mall_2 img{
+    position:absolute;
+    top:3px;
+    right:10px;
+}
+.hahaa{
+    position:fixed;
+    right:12px;
+    top:9px;
+}

@@ -1,0 +1,27 @@
+<!--pages/common/common.wxml-->
+<!--pages/comment/comment.wxml-->
+<view>
+  <!--电影图片-->
+  <view class="detail-container" style='background:url({{detail.images.large}}) no-repeat top'></view>
+  <view class="detail-mask"></view>
+  <!--电影介绍-->
+  <view class="detail-info">
+    <image src="{{detail.images.large}}" class="detail-img"></image>
+    <view class="detail">
+      <!--右侧：电影标题-->
+      <view calss="detail-nm">{{detail.title}}</view>
+      <!--右侧：电影源标题-->
+      <view>{{detail.original_title}}</view>
+      <!--右侧：电影打分-->
+      <view class="detail-sc">{{detail.rating.average}}分</view>
+      <!--右侧：电影国家-->
+      <view>{{detail.countries[0]}}</view>
+      <!--右侧：电影导演-->
+      <view>导演：{{detail.directors[0].name}}</view>
+    </view>
+   </view> 
+  <!--电影描述-->
+  <view class="desc">{{detail.summary}}</view>
+  
+ 
+</view>

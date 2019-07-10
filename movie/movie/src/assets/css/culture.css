@@ -1,0 +1,32 @@
+.zjyh{
+    animation:fadeInRightBig 0.4s;
+}
+.dxaa{
+    font-size: 20px;
+    color: #998278;
+}
+.zjyhtwo{
+    width: 100%;
+    padding:0 5%;
+    height: 55px;
+    line-height: 55px;
+    color: #46423f;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #d0cece3b; 
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.zjyhone{
+    width: 100%;
+    padding-left: 5%;
+    height: 55px;
+    line-height: 55px;
+    color: #998278;
+    border-bottom:1px solid #d0cece3b;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.zjyh{
+    width: 100%;
+}

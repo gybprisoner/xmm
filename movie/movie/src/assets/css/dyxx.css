@@ -1,0 +1,188 @@
+.dyxq{
+    animation:bounceInUp 0.7s;
+}
+.touxiang>img{
+    width: 100%;
+}
+.goupiao button,.goupiao a{
+    width: 46%;
+    height: 40px;
+    border-radius: 18px;
+    border: none;
+    background-color: #998278;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.goupiao{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 54px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top:1px solid #d0cece3b; 
+}
+/* 固定 */
+.yuedu{
+    background-color: white;
+    width: 90%;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 auto;
+    color: #46423f;
+    border-bottom: 1px solid #efdede82;
+}
+.baise{
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    height: 150px;
+}
+.taile>p:nth-child(2){
+    color: #353333;
+}
+.taile>p{
+    margin: 3px 0 0 0;
+    text-align: center;
+    font-size: 12px;
+}
+.touxiang{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #000;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.taile{
+    width: 110px;
+    height: 100px;
+}
+.yanyuan{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.xq_4{
+    width: 92%;
+    height: 36px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #5c5c5fb8; 
+    background-color: white;
+}
+/* 点击变大的事件 */
+.xq_sr{
+    width: 92%;
+    height: 88px;
+    margin: 5px auto 0 auto;
+    font-size: 14px;
+    color: #353333;
+    line-height: 22px;
+    overflow: hidden;
+}
+/* 点击展开 */
+.btn{
+    font-size: 13px;
+    width: 48%;
+    border: none;
+    color: #5c5c5fb8;
+    background-color: #dededeab;
+    border-radius: 10px;
+}
+.xq_two{
+    width: 92%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* 喜欢不喜欢 */
+.lgd_x{
+    width: 100%;
+    font-size: 12px;
+    color: #666;
+}
+.lgd>span:nth-child(2){
+    color: #ff5715;
+    font-size: 20px;
+}
+.lgd>span:nth-child(1){
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.lgd{
+    display: flex;
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    justify-content:space-between;
+}
+.jueduixq>img{
+    width: 100%;
+}
+.jueduixq{
+    width: 115px;
+    height: 150px;
+    position:absolute;
+    top: -40px;
+    left: 3.8%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.xq_one>p{
+    margin: 0;
+}
+.xq_one{
+    width: 59%;
+    height: 125px;
+    margin-left: 38%;
+}
+.xiangq{
+    width: 100%;
+    height: 296px;
+    background-color: white;
+    position: relative; 
+}
+.xqbj>img{
+    width: 100%;
+    height: 250px;
+}
+.xqbj{
+    width: 100%;
+    height: 250px;
+}
+.jdfh{
+    width: 38px;
+    height: 38px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 38px;
+    background-color: #928f8f8a;
+    position: absolute;
+    top: 27px;
+    left: 6%;
+    font-size: 24px;
+    color: #fff;
+    border:1px solid #c7c7c7;
+     padding: 0.6% 1.5% 1% 0.25%;
+     z-index: 10;
+}

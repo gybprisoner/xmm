@@ -1,0 +1,122 @@
+.danll{
+    animation:fadeInRightBig 0.4s;
+}
+.dsfrj{
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.dsfrj>img{
+    width: 50px;
+    height: 50px;
+}
+/* 第三方登录 */
+.disfdl{
+    position: absolute;
+    left: 10%;
+    bottom: 14%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    color: #cccccc;
+    font-size: 14px;
+}
+/* 下按钮 */
+.dl_anniu{
+    width: 80%;
+    height: 45px;
+    margin: 20px auto;
+}
+.dl_anniu>button{
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(to right,#998278,#998278c7);
+    font-size: 16px;
+    letter-spacing: 2px;
+    align-content: center;
+    line-height: 20px;
+    border-radius: 25px;
+    color: white;
+    opacity: 0.9;
+}
+.hqyzm{
+    padding: 0;
+    width: 25%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    color: #886e6eed;
+    font-size: 12px;
+}
+/* s输入框 */
+.tanxingdl{
+    width: 90%;
+    height: 62px;
+    margin: 0 auto;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #886e6eed;
+    border-bottom: 1px solid #ccc;
+}
+.tanxingdl>span{
+    width: 20%;
+    font-size: 15px !important;
+}
+.tanxingdl>input{
+    width: 55% !important;
+    height: 28px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #efeff4 !important;
+    font-size: 14px !important;
+    border: none !important;
+}
+.tanxingdl>.innn{
+    background: #fff !important;
+}
+.ccyc{
+    overflow: hidden;
+    margin-top: 20px;
+    width: 100%;
+    /* height: 210px; */
+}
+.daul{
+    width: 200%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:2px 2px 15px darkgray;
+    position: relative;
+    transition: left 0.5s;
+}
+.daul>li{
+    width: 100%;
+}
+.denglu{
+    width: 100%;
+    height: 56px;
+    margin-top: 10px;
+    /* background-color: #efeff4; */
+    display: flex;
+    justify-content: space-around;
+}
+.denglu>span{
+    width: 50%;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    transition: all 0.4s;
+    background: #fff ;
+}    
+.spgdd{
+    color: #755649 !important;
+    box-shadow:3px 3px 11px darkgray;
+    background-color: #a9a9a936;
+    }

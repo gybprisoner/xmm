@@ -1,0 +1,5 @@
+/* pages/like/like.wxss */
+.dss .ssss{
+  background-color: yellow;
+  color: black;
+}

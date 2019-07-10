@@ -1,0 +1,82 @@
+.toptop{
+    min-height: 45px;
+}
+/*总的div*/
+.store{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background: #fff;
+}
+
+.productleft{
+    position: fixed;
+    background:rgb(242, 242, 242);
+    left:0;
+    height: 100%;;
+}
+/*左边*/
+.storeLeft{
+    /* border: 1px solid #f0f; */
+    width: 23%;
+    text-align: center;
+    background:rgb(239, 239, 239);
+
+}
+.storeLeft>ul li{
+     border-bottom:1px solid rgb(221, 221, 221);
+     padding: 8px 0 8px 0;
+     font-size: 12px;
+     letter-spacing: 1px;
+     color:#46423f;
+     /* font-weight: 600; */
+}
+/*右边*/
+.storeRightDiv{
+    width:75%;
+    margin-left:13px;
+    background: #fff;
+    /* position: absolute; */
+    /* left:20%;top:10%;  */
+    transition:2s;
+}
+.storeRight{
+    /* border: 1px solid #0ff; */
+    width:100%;
+    display: flex;
+    border-bottom:1px solid rgb(221, 221, 221);
+    padding:8px 8px 8px 0;
+}
+.rightImg{
+    width:40%;
+    
+}
+.rightImg img{
+    width:100%;
+    display: block;
+}
+.rightWz{
+    margin-left:6%;
+    overflow: hidden;
+}
+.rightWz h3{
+    color:#46423f;
+    font-size:16px;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    font-weight: 600 ;
+     overflow: hidden; 
+}
+.rightWz p{
+    margin:8px 0 5px 0;
+}
+.rightWz p, .rightWz span{
+    font-size:13px;
+   color:#46423f; 
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow:ellipsis; 
+}
+.rightWz .money{
+    color: red;
+}

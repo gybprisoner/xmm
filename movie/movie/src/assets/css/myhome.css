@@ -1,0 +1,75 @@
+.grzx{
+    animation:fadeInRightBig 0.4s;
+}
+.wuno{
+    text-align: center;
+    width: 100%;
+    padding-top:30px;
+}
+.zujiaa{
+    width: 100%;
+    height: 600px;
+}
+.wdyp{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #46423f;
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid #e0d8d2ab;  
+}
+.top01_3{
+    color: #f9f9f9;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.top01_2{
+    color: #f9f9f9;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "微软雅黑";
+}
+.top01_1{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: black;
+    margin: 0 auto 25px auto;
+    overflow: hidden;
+}
+.top01_1 img{
+    width: 100%;
+    
+}
+.top01{
+    width: 100%;
+    height: 250px;
+    background-color: #0202025c;
+    padding-top: 50px;
+}
+.juedui{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    width: 35px;
+    height: 35px;
+    border-radius:30px;
+    line-height: 35px;
+    padding-left: 2px;
+    color: white;
+    border: 1px solid white;
+    background-color: #716d6d82;
+    font-size: 26px;
+    z-index: 99999;
+    padding-top:0.3%; 
+}
+.grzx_top{
+    width: 100%;
+    height: 250px;
+    background-image: url('../user/mvbg.jpg');
+    background-size: 100% 100%;
+}

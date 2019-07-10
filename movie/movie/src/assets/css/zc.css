@@ -1,0 +1,84 @@
+.zanzc{
+    animation:fadeInRightBig 0.4s;
+}
+.sfty{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 10px;
+    text-align: center;
+}
+.sfty>span{
+    text-decoration: underline;
+    color: #3a3636;
+}
+.xszc{
+    display: block;
+}
+.yczc{
+    display: none;
+}
+.sp1zc{
+    font-size: 28px;
+}
+.zhu_1{
+    font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI" !important;
+    font-size: 17px;
+    color: gray;
+}
+.ruazc>input{
+    width: 70% !important;
+    border: none !important;
+    width: 210px !important;
+    background: #efeff4 !important;
+    color: gray !important;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+}
+.ipmm{
+    padding-left: 17px !important;
+}
+.ruazc{
+    border-bottom: 1px solid #ccc; 
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px auto;
+    padding-bottom: 55px;
+}
+.bt1zc{
+    width: 90%;
+    height: 45px;
+    display: block;
+    margin: 30px auto;
+    background: linear-gradient(to right,#998278,#998278c7);
+    font-size: 18px;
+    align-content: center;
+    line-height: 20px;
+    border-radius: 25px;
+    color: white;
+    opacity: 0.9;
+}
+.sp{
+    opacity: 0.9;
+    position: absolute;
+    color: #21ab45;
+    font-size: 28px;
+}
+.cuow{
+    opacity: 0.9;
+    position: absolute;
+    color: #e83632;
+    font-size: 28px;
+}
+.sp1zc{
+    top: 75px;
+    right: 26px;
+}
+.sp2zc{
+    top: 133px;
+    right: 26px;
+}
+.ruazc>.inppp{
+    background: #fff !important;
+    width: 70% !important;
+}

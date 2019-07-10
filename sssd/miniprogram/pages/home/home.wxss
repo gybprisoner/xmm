@@ -1,0 +1,40 @@
+/* pages/home/home.wxss */
+.imgw{width:100%;
+height:400rpx;}
+.swiper-box{
+  height: 200px;
+}
+.movie{
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+/* 电影图片 */
+.movie-img{
+    width: 200rpx;
+    height: 300rpx;
+    margin-right: 20rpx;/*与右侧文字间距*/
+}
+/* -电影介绍 */
+.movie-info{
+flex: 1;   /* 将右侧分给文字 */
+font-size:  20rpx;
+line-height: 1.8;  
+ 
+}
+/* -电影标题 */
+.movie-title{
+  color: #666;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+.movie-score{
+  color: #faaf00;
+}
+.movie-comment{
+  height: 60rpx;
+  background: #e54847;
+  color: #fff;
+  font-size: 26rpx;
+  margin-top: 120rpx;
+}

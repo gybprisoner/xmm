@@ -1,0 +1,24 @@
+.play{
+    position:absolute;
+    width:100%;
+    height:300px;
+    animation:fadeInRightBig 0.4s;
+ }
+ .pla{
+     position:relative;
+     top:50px;
+     text-align:center;
+ }
+ .spa{
+     display:block;
+     margin-top:50px;
+     text-align: center;
+     color:#46423f;
+ }
+ .fs16{
+     font-size:16px;
+ }
+ .sa{
+     color:#46423f;
+     text-decoration:underline;
+ }

@@ -1,0 +1,32 @@
+.ani4{
+    animation:fadeIn 1s;
+}
+.erweima{
+    width: 80%;
+    height:50%;
+    /* border-top : 1px solid #f00; */
+    position:absolute;
+    top:0;left:0;bottom: 0;right: 0;
+    margin: auto;
+    /* overflow: hidden; */
+}
+.imgg{
+    text-align: center;
+    margin:0 auto
+}
+.imgg img{
+    width: 100%;
+    display: block;
+}
+.erweima div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.erweima div p{
+    margin: 0 2% 3% 2%;
+    font-size: 1.5rem;
+}
+.erweima div .p1{
+     font-size: 1.5rem;
+}

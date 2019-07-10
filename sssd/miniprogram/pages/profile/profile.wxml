@@ -1,0 +1,86 @@
+<!--pages/profile/profile.wxml-->
+<view class="profile">
+    <view class="profile-img">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view>
+       <open-data type="userNickName" class="profile-name">  </open-data>  
+    </view>
+</view>
+<button style='font-size:36rpx; width:100%; margin-top:20rpx; border:1px solid #c4c4c4;' open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
+<!-- 详细信息 -->
+<view class='mytitle'>
+  <text>我的书影音</text>
+  <text>全部 ></text>
+</view>
+<!-- 第一行 -->
+<view class='mypro' style='border-bottom:1px solid gainsboro'>
+  <!-- 小图标 -->
+  <view><image src='../../images/p4.png' class='myimg'></image></view>
+  <!-- 分析 -->
+  <view class='mysize'>
+    <view class='titles'>观影分析</view>
+    <view class='num'>
+      <text>6</text>
+      <text>看过</text>
+    </view>
+  </view>
+    <view class='my1'>
+    <!-- 标记 -->
+    <view class='right-style'>
+      <view>标记10部影片</view>
+      <view>开启影片分析</view>
+    </view>
+    <!-- 立即开始 -->
+    <view class='btn'><button style='font-size: 30rpx; background:rgba(0,0,0,0.1)'>立即开始</button></view>
+  </view>
+</view>
+<!-- 直接复制的上面的  ↑  CV万岁 -->
+<view class='mypro' style='border-bottom:1px solid gainsboro'>
+  <!-- 小图标 -->
+  <view><image src='../../images/book.png' class='myimg'></image></view>
+  <!-- 分析 -->
+  <view class='mysize'>
+    <view class='titles'>读书分析</view>
+    <view class='num'>
+      <text>2</text>
+      <text>看过</text>
+    </view>
+  </view>
+    <view class='my1'>
+    <!-- 标记 -->
+    <view class='right-style'>
+      <view>标记10部影片</view>
+      <view>开启读书分析</view>
+    </view>
+    <!-- 立即开始 -->
+    <view class='btn'><button style='font-size: 30rpx; background:rgba(0,0,0,0.1)'>立即开始</button></view>
+  </view>
+</view>
+<!-- 直接复制的上面的  ↑  CV万岁 -->
+<view class='mypro' style='border-bottom:1px solid gainsboro'>
+  <!-- 小图标 -->
+  <view><image src='../../images/mc.png' class='myimg'></image></view>
+  <!-- 分析 -->
+  <view class='mysize'>
+    <view class='titles'>音乐分析</view>
+    <view class='num'>
+      <text>10</text>
+      <text>看过</text>
+    </view>
+  </view>
+    <view class='my1'>
+    <!-- 标记 -->
+    <view class='right-style'>
+      <view>标记10部影片</view>
+      <view>开启音乐分析</view>
+    </view>
+    <!-- 立即开始 -->
+    <view class='btn'><button style='font-size: 30rpx; background:rgba(0,0,0,0.1)'>立即开始</button></view>
+  </view>
+</view>
+<!-- 文字滚动 -->
+<van-notice-bar
+  text="剧院节假日包场较多，因此减少影片上映数量，为此给各位顾客带来不便深表歉意，有更新会第一时间发动态告知,谢谢您的理解"
+  left-icon="volume-o"
+/>

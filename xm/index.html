@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/comm.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <!--顶部视频-->
+    <div style="position: relative;" class="div-top"> 
+      <video autoplay loop muted="true" width="100%" height="100%" style="object-fit:fill" src="../movie/dingbu.mp4">
+          您的浏览器不支持 video 标签。 
+      </video>
+      <div class="act"></div> 
+      <div class="act-all">
+        <div class="act-content">
+          <img class="act-english" src="../img/header/act-logo-1.png">
+          <img class="act-english" src="../img/header/act-logo-2.png">
+        </div>
+      </div>
+    </div>
+    <!-- 头 -->
+    <div class="header">
+      <div class="top">
+          <a class="logo" href="javascript:;">
+              <img src="img/header/logo.png" alt="">
+          </a>
+          <ul class="center">
+            <li><a href="javascript:;">首页</a></li>
+            <li><a href="javascript:;">公司简介</a></li>
+            <li><a href="javascript:;">当季特惠</a></li>
+            <li><a href="javascript:;">旅拍城市</a></li>
+            <li><a href="javascript:;">客照欣赏</a></li>
+            <li><a href="javascript:;">客户微电影</a></li>
+            <li><a href="javascript:;">客户评价</a></li>
+            <li><a href="javascript:;">尚品旅拍</a></li>
+            <li><a href="javascript:;">会员登入</a></li>
+        </ul>
+      </div>
+  </div>
+    <!-- 中间 -->
+    <!-- 轮播图 -->
+    <div id="main">
+      <div id="banner">
+          <!--左边箭头-->
+          <div id="btn-left"></div>
+          <!--大图-->
+          <ul id="ul-imgs" style="width:9600px;margin-left:0px;">
+              <li><a href="javascript:;"><img src="./img/index/01.jpg" alt=""></a></li>
+              <li><a href="javascript:;"><img src="./img/index/02.jpg" alt=""></a></li>
+              <li><a href="javascript:;"><img src="./img/index/03.jpg" alt=""></a></li>
+              <li><a href="javascript:;"><img src="./img/index/04.jpg" alt=""></a></li>
+              <!--注意！最后li个数要比实际图片张数多1，最后一个li里的img是重复第一张li的图片-->
+              <li><a href="javascript:;"><img src="./img/index/01.jpg" alt=""></a></li>
+          </ul>
+          <!--下边的点-->
+          <ul id="ul-idxs">
+              <!--虽然li个数比实际图片张数多1，但小圆点的个数不必多1-->
+              <li class="active"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+          </ul>
+          <!--右边箭头-->
+          <div id="btn-right"></div>
+      </div>
+  </div>
+    <!-- 城市 -->
+    <img class="index_city_img" src="img/index/index_city.jpg" alt="">
+    <div class="index_city">
+        <ul>
+            <li>
+               <div><a href="javascript:;">三亚</a></div>
+            </li>
+            <li>
+               <div><a href="javascript:;">厦门</a></div>
+            </li>
+            <li>
+               <div><a href="javascript:;">丽江</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">大理</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">青岛</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">大连</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">桂林</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">深圳</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">香港</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">澳门</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">北京</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">杭州</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">香格里拉</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">巴厘岛</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">普吉岛</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">马尔代夫</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">日本</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">欧洲</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">巴黎</a></div> 
+            </li>
+            <li>
+               <div><a href="javascript:;">布拉格</a></div> 
+            </li>
+        </ul>
+    </div>
+    <!--客照展示轮播图-->
+    <div class="client_photo">
+       <div id="client-banner">
+          <ul id="ul-check" style="width:15200px;margin-left:0px;">
+             <li>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/sanya.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>SANYA</span>
+                           &nbsp;
+                           <span>三亚</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/xiamen.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>XIAMEN</span>
+                           &nbsp;
+                           <span>厦门</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/lijiang.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>LIJIANG</span>
+                           &nbsp;
+                           <span>丽江</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+             </li>
+             <li>
+               <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/dali.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>DALI</span>
+                           &nbsp;
+                           <span>大理</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/qingdao.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>QINGDAO</span>
+                           &nbsp;
+                           <span>青岛</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/dalian.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>DALIAN</span>
+                           &nbsp;
+                           <span>大连</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+             </li>
+             <li>
+               <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/guilin.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>GUILIN</span>
+                           &nbsp;
+                           <span>桂林</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/shenzhen.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>SHENZHEN</span>
+                           &nbsp;
+                           <span>深圳</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/xianggang.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>HONGKONG</span>
+                           &nbsp;
+                           <span>香港</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+             </li>
+             <li>
+               <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/aomen.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>MACAO</span>
+                           &nbsp;
+                           <span>澳门</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/beijing.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>BEIJING</span>
+                           &nbsp;
+                           <span>北京</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/hangzhou.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>HANGZHOU</span>
+                           &nbsp;
+                           <span>杭州</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+             </li>
+             <li>
+               <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/xianggelila.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>SHANGRI-LA</span>
+                           &nbsp;
+                           <span>香格里拉</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/balidao.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>BALI</span>
+                           &nbsp;
+                           <span>巴厘岛</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/pujidao.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>PHUKET</span>
+                           &nbsp;
+                           <span>普吉岛</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+             </li>
+             <li>
+               <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/maerdaifu.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>MALDIVES</span>
+                           &nbsp;
+                           <span>马尔代夫</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/riben.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>JAPAN</span>
+                           &nbsp;
+                           <span>日本</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/ouzhou.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>EUROPE</span>
+                           &nbsp;
+                           <span>欧洲</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+             </li>
+             <li>
+               <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/ouzhou.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>EUROPE</span>
+                           &nbsp;
+                           <span>欧洲</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/bali.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>PARIS</span>
+                           &nbsp;
+                           <span>巴黎</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/bulage.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>BRAGG</span>
+                           &nbsp;
+                           <span>布拉格</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+             </li>
+             <li>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/sanya.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>SANYA</span>
+                           &nbsp;
+                           <span>三亚</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/xiamen.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>XIAMEN</span>
+                           &nbsp;
+                           <span>厦门</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+                <div class="check">
+                  <a href="javascript:;" target="_blank">
+                     <img src="img/index/lijiang.jpg" alt="">
+                     <div>
+                        <p>
+                           <span>LIJIANG</span>
+                           &nbsp;
+                           <span>丽江</span>
+                        </p>
+                        <span>最新客照展示</span>
+                        <div class="btn_look">点击查看</div>
+                     </div>
+                  </a>
+                </div>
+             </li>
+          </ul>
+       </div>
+    </div>
+    <div class="news_spring">
+      <a href="javascript:;" target="_blank">
+        <img src="../img/index/new-photo.jpg" alt="">
+      </a>  
+      <a href="javascript:;" target="_blank">
+        <img src="../img/index/look.png" alt="" class="new_look">
+      </a>
+    </div>
+    <!--最新客照-->
+    <div class="container">
+      <div class="brand_words">
+        <h1>LATEST CUSTOMER PHOTOS</h1>
+        <p>铂爵旅拍，最新客照</p>
+        <span>
+            FRIEND IS WHO CAN GIVE YOU STRENGTH AT LAST LOVE IS A LAMP,WHILE FRIENDSHIP IS THE SHADOW.WHEN WHE LAMP IS OFF.YOU WILL
+        </span>
+        <span>
+            FIND THE SHADOW EVERYWHERE.FRIEND IS WHO CAN GIVE YOU STRENGTH AT LAST.
+        </span>
+      </div>
+    </div>
+      <!--最新客照--轮播图-->
+    <div class="new_main">
+      <div id="swiper_container">
+        <ul id="new_ul_imgs" style="width:5700px;margin-left:0px;">
+          <li>
+            <div>
+              <a href="javascript:;" target="_blank">
+                <img src="../img/index/4yue1ji.jpg" alt="">
+              </a>
+              <div>
+                <p>LATEST GUESTBOOK</p>
+                <p>04月第1季最新客照</p>
+              </div>
+            </div>
+            <div>
+              <a href="javascript:;" target="_blank">
+                <img src="../img/index/4yue2ji.jpg" alt="">
+              </a>
+              <div>
+                <p>LATEST GUESTBOOK</p>
+                <p>04月第2季最新客照</p>
+              </div>
+            </div>
+            <div>
+              <a href="javascript:;" target="_blank">
+                <img src="../img/index/4yue3ji.jpg" alt="">
+              </a>
+              <div>
+                <p>LATEST GUESTBOOK</p>
+                <p>04月第3季最新客照</p>
+              </div>
+            </div>
+            <div>
+              <a href="javascript:;" target="_blank">
+                <img src="../img/index/4yue4ji.jpg" alt="">
+              </a>
+              <div>
+                <p>LATEST GUESTBOOK</p>
+                <p>04月第4季最新客照</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="javascript:;" target="_blank">
+                <img src="../img/index/5yue1ji.jpg" alt="">
+              </a>
+              <div>
+                <p>LATEST GUESTBOOK</p>
+                <p>05月第1季最新客照</p>
+              </div>
+            </div>
+            <div>
+              <a href="javascript:;" target="_blank">
+                <img src="../img/index/5yue2ji.jpg" alt="">
+              </a>
+              <div>
+                <p>LATEST GUESTBOOK</p>
+                <p>05月第2季最新客照</p>
+              </div>
+            </div>
+            <div>
+              <a href="javascript:;" target="_blank">
+                <img src="../img/index/5yue3ji.jpg" alt="">
+              </a>
+              <div>
+                <p>LATEST GUESTBOOK</p>
+                <p>05月第3季最新客照</p>
+              </div>
+            </div>
+            <div>
+              <a href="javascript:;" target="_blank">
+                <img src="../img/index/5yue4ji.jpg" alt="">
+              </a>
+              <div>
+                <p>LATEST GUESTBOOK</p>
+                <p>05月第4季最新客照</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="javascript:;" target="_blank">
+                <img src="../img/index/4yue1ji.jpg" alt="">
+              </a>
+              <div>
+                <p>LATEST GUESTBOOK</p>
+                <p>04月第1季最新客照</p>
+              </div>
+            </div>
+            <div>
+              <a href="javascript:;" target="_blank">
+                <img src="../img/index/4yue2ji.jpg" alt="">
+              </a>
+              <div>
+                <p>LATEST GUESTBOOK</p>
+                <p>04月第2季最新客照</p>
+              </div>
+            </div>
+            <div>
+              <a href="javascript:;" target="_blank">
+                <img src="../img/index/4yue3ji.jpg" alt="">
+              </a>
+              <div>
+                <p>LATEST GUESTBOOK</p>
+                <p>04月第3季最新客照</p>
+              </div>
+            </div>
+            <div>
+              <a href="javascript:;" target="_blank">
+                <img src="../img/index/4yue4ji.jpg" alt="">
+              </a>
+              <div>
+                <p>LATEST GUESTBOOK</p>
+                <p>04月第4季最新客照</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>  
+    <!--摄影师化妆师-->
+    <div class="container">
+      <div class="brand_words">
+        <h1>BOJUE PHOTOGRAPHY STAR CHOICE</h1>
+        <p>铂爵旅拍，明星的选择</p>
+        <span>
+          FRIEND IS WHO CAN GIVE YOU STRENGTH AT LAST LOVE IS A LAMP,WHILE FRIENDSHIP IS THE SHADOW.WHEN WHE LAMP IS OFF.YOU WILL
+        </span>
+        <span>
+          FIND THE SHADOW EVERYWHERE.FRIEND IS WHO CAN GIVE YOU STRENGTH AT LAST.
+        </span>
+      </div>
+    </div>
+    <div class="star-activity-img">
+      <a href="javascript:;" target="_blank">
+        <img src="../img/index/sheyingshi.jpg" alt="">
+      </a>
+      <a href="javascript:;" target="_blank">
+        <img src="../img/index/huazhuangshi.jpg" alt="">
+      </a>
+    </div>
+    <!--最新微电影-->
+    <div class="container">
+      <div class="brand_words">
+        <h1>BOJUE PHOTOGRAPHY MICROFILM</h1>
+        <p>铂爵旅拍最新微电影</p>
+        <span>FRIEND IS WHO CAN GIVE YOU STRENGTH AT LAST LOVE IS A LAMP,WHILE FRIENDSHIP IS THE SHADOW.WHEN WHE LAMP IS OFF.YOU WILL</span>
+        <span>FIND THE SHADOW EVERYWHERE.FRIEND IS WHO CAN GIVE YOU STRENGTH AT LAST.</span>
+      </div>
+    </div>
+    <div class="video-box">
+      <video controls onclick="changeMovie(this)" width="100%" height="auto" src="../movie/jieshao.mp4" name="media">您的浏览器不支持播放视频</video>
+    </div>
+    <div class="video-area-text">
+      <p>RECORD YOUR WEAR A WEDDING DRESS IN THE JOURNEY</p>
+      <span>FRIEND IS WHO CAN GIVE YOU STRENGTH AT LAST LOVE IS A LAMP,WHILE FRIENDSHIP IS THE SHADOW.WHEN WHE LAMP IS OFF.YOU WILL</span>
+      <span>FIND THE SHADOW EVERYWHERE.FRIEND IS WHO CAN GIVE YOU STRENGTH AT LAST.</span>
+    </div>
+    <!-- 微电影轮播图 -->
+    <div class="container">
+      <div class="brand_words">
+        <h1>BOJUE PHOTOGRAPHY MICROFILM PIONEER</h1>
+        <p>铂爵旅拍，双影像旅拍开创者</p>
+        <span style="font-size: 1.6rem">铂爵拍的不只是婚纱照,还有微电影。记录穿着婚纱的旅行</span>
+      </div>
+      <div class="new_main">
+        <div id="movie_container">
+          <ul id="new_ul_movies" style="width:5700px;margin-left:0px;">
+            <li>
+              <div class="li-movie-div">
+                <a href="javascript:;" target="_blank">
+                  <img src="./img/index/weidianying01.jpg" alt="">
+                  <span class="movie-change-img"></span>
+                </a>
+              </div>
+              <div class="li-movie-div">
+                <a href="javascript:;" target="_blank">
+                  <img src="./img/index/weidianying02.jpg" alt="">
+                  <span class="movie-change-img"></span>
+                </a>
+              </div>
+            </li>
+            <li>
+                <div class="li-movie-div">
+                  <a href="javascript:;" target="_blank">
+                    <img src="./img/index/weidianying03.jpg" alt="">
+                    <span class="movie-change-img"></span>
+                  </a>
+                </div>
+                <div class="li-movie-div">
+                  <a href="javascript:;" target="_blank">
+                    <img src="./img/index/weidianying04.jpg" alt="">
+                    <span class="movie-change-img"></span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                  <div class="li-movie-div">
+                    <a href="javascript:;" target="_blank">
+                      <img src="./img/index/weidianying01.jpg" alt="">
+                      <span class="movie-change-img"></span>
+                    </a>
+                  </div>
+                  <div class="li-movie-div">
+                    <a href="javascript:;" target="_blank">
+                      <img src="./img/index/weidianying02.jpg" alt="">
+                      <span class="movie-change-img"></span>
+                    </a>
+                  </div>
+                </li>
+          </ul>
+        </div>
+      </div>
+      <img class="movie_more_img" src="../img/index/movie_more.png" alt="">
+    </div>
+    <!-- 品牌中心 -->
+    <div class="container">
+      <div class="brand_words"> 
+       <h1>BOJUE PHOTOGRAPHY BRAND CENTER</h1> 
+       <p>铂爵旅拍品牌中心</p> 
+       <span>FRIEND IS WHO CAN GIVE YOU STRENGTH AT LAST LOVE IS A LAMP,WHILE FRIENDSHIP IS THE SHADOW.WHEN WHE LAMP IS OFF.YOU WILL</span> 
+       <span>FIND THE SHADOW EVERYWHERE.FRIEND IS WHO CAN GIVE YOU STRENGTH AT LAST.</span> 
+     </div>
+     <div class="brand_content"> 
+      <div class="brand-four">
+        <div style="clear: both;">
+          <div class="brand-four-first">
+            <a href="javascript:;" target="_blank">
+              <img class="img-fluid" src="./img/index/bojue.png">
+              <span>公司简介</span>
+            </a>
+          </div>
+          <div class="brand-four-two">
+            <a  href="javascript:;" target="_blank">
+              <img class="img-fluid" src="./img/index/jishu.png">
+              <span>摄影师自选</span>
+            </a>
+          </div>
+        </div>
+        <div style="clear: both;">
+          <div class="brand-four-three">
+            <a  href="javascript:;" target="_blank">
+              <img class="img-fluid" src="./img/index/fuwu.png">
+              <span>十八大高端定制</span>
+            </a>
+          </div>
+          <div class="brand-four-four">
+            <a href="javascript:;" target="_blank">
+              <img class="img-fluid" src="./img/index/mendian.png">
+              <span>铂爵旅拍探店</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- 全球百大旅拍目的地 -->
+
+<div class="container baidamdd">
+    <a href="javascript:;" target="_blank">
+      <img class="img-baida" src="./img/index/baida.png">
+    </a>
+  </div>
+    <!-- 脚 -->
+    <div class="return-a">
+        <a href="javascript:scroll(0,0)">返回顶部</a>
+    </div>
+    <div class="footer_words">
+      <h2>伯爵旅拍，只用真实客照说话</h2>
+      <span>三亚 / 厦门 / 丽江 / 大理 / 深圳 / 北京 / 香港 / 澳门 / 香格里拉 / 桂林 / 杭州 / 大连 / 青岛 / 巴厘岛 / 普吉岛 / 马尔代夫 / 日本</span>
+      <span>巴黎 / 普罗旺斯 / 希腊 / 布拉格 / 瑞士 / 罗马 / 威尼斯 / 伦敦 / 佛罗伦萨 / 巴塞罗那 / 葡萄牙 / 荷兰 / 土耳其 / 冰岛</span>
+      <span>海南 / 尚品铂爵 / 鼓浪屿 / 铂爵店 / 天津 / 福州 / 西藏 / 尚品伯爵 / 三亚铂爵会馆 / 三亚铂爵公馆等全球各地</span>
+      <span>咨询热线： 400-6677-500 (在线时间：09:00-22:00)</span>
+      <span>总经理投诉热线：150-6075-0068 (在线时间：09:00-21:00)
+      </span>
+      <span>媒体接洽/合作邮箱：ad@bj520.com</span>
+      <span>招聘联系邮箱：bjhr@bj520.com</span>
+      <span>地址: 厦门市翔安区马巷莲亭路830号19层 邮编：361000</span>
+  </div>
+  <div class="footer_a">
+      <ul>
+          <li><a href="javascript:;" target="_blank">首页</a></li>
+          <li><a href="javascript:;" target="_blank">客户微电影</a></li>
+          <li><a href="javascript:;" target="_blank">人才招聘</a></li>
+          <li><a href="javascript:;" target="_blank">银行账户</a></li>
+          <li><a href="javascript:;" target="_blank">联系我们</a></li>
+      </ul>
+  </div>
+  <img class="footer_img" src="img/footer/footer_banner.png" alt="">
+  <div class="copyright">©2017 铂爵蜜月文化（厦门）有限公司 版权所有 京ICP备 22727997号</div>
+  <!--视频播放/暂停-->
+  <script>
+    function changeMovie(elt){
+      if(elt.paused){
+        elt.play();
+      }else{
+        elt.pause();
+      }
+    }
+  </script>
+  <!--引入js-->
+    <script src="js/index.js"></script>
+    <script src="js/client_photo.js"></script>
+    <script src="js/new_main.js"></script>
+    <script src="js/movie_container.js"></script>
+</body>
+</html>

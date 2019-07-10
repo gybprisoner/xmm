@@ -1,0 +1,78 @@
+/* 头部导航 */
+.ani2{
+    animation:zoomIn 0.8s;
+}
+.top_top{
+    min-height: 138px;
+}
+/* 头部图片 */
+.yy_top_img{
+    max-height: 100px;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    position: fixed;
+    top:43.5px;left:0;
+}
+.yy_top_img img{
+    width: 100%;
+}
+
+/*  地址部分*/
+.yy_dizhi{
+    display: flex;
+    justify-content: space-between;
+    /* overflow: hidden; */
+    width: 100%;
+    border-bottom:1px solid #ddd; 
+    padding: 3% 1% 0% 1%;
+}
+.yy_dizhi_left{
+    width: 70%;
+    overflow: hidden;
+}
+.yy_dizhi p{
+    font-size: 12px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+
+}
+
+.yy_goup{
+    width:25%;
+    text-align: center;
+    margin: 0;
+    /* padding:0 10px 0 10px; */
+
+}
+.yy_goup div{
+    width:72px;
+    background: #998278; 
+    height: 35px;
+    border-radius:20px;
+    line-height: 35px;
+    margin: 0 auto;
+    margin-bottom:4%;
+    color: #fff;
+}
+/*底部位置*/
+.yy_bottom{
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: rgb(241, 241, 241);
+    padding: 1%;
+    position: fixed;
+    left: 0;bottom: 0;
+}
+.yy_bottom h6{
+    margin: 0;
+    font-size:12px;
+}
+.yy_bottom p{
+    font-size:20px;
+    margin: 0;
+}

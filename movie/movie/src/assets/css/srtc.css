@@ -1,0 +1,46 @@
+.www>P{
+    padding-top: 4%;
+ }
+ .www>p:nth-child(3){
+     font-size: 10px;
+     color: red; 
+     width: 90%;
+     text-align: right;
+ }
+ .www>p:nth-child(2){
+     font-size: 12px;
+     text-align: center;
+ }
+ .www>p:nth-child(1){
+     font-size: 16px; 
+     text-align: center;
+     color: #403d3de0;
+ }
+ .rgd{
+     width: 11%;
+     height: 122px;
+     font-size: 25px;
+     line-height: 122px;
+     color: #989393e6;
+ }
+ .www{
+     width: 55%;
+     height: 122px;
+ }
+ .bmhtp>img{
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+ }
+ .bmhtp{
+     width: 34%;
+     height: 122px;
+ }
+ .srtcqq{
+     width: 100%;
+     height: 130px;
+     margin: 13px auto 0 auto;
+     display: flex;
+     justify-content: space-between;
+     border-bottom:1px solid #d0cece3b; 
+ }

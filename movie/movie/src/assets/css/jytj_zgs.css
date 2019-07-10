@@ -1,0 +1,53 @@
+.xhmyd .iconfont{
+    font-size: 10px;
+    margin-right: 5px;
+}
+.xhmyd>P{
+    margin: 0;
+    font-size: 10px;
+}
+.xhmyd{
+    display: flex;
+    justify-content: space-between;
+}
+.zgs_you>p:nth-child(2){
+    width: 20%;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #356dd6ed;
+    border:1px solid #356dd6ed;
+    margin: 8px 0 20px 0; 
+}
+.zgs_you>p:nth-child(1){
+    font-size: 15px;
+    color: #49494c;
+    height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.zgs_you>p{
+    margin: 0;
+}
+.zgs_you{
+    width: 48%;
+}
+.zgs_left>img{
+    width: 100%;
+    object-fit:contain;
+}
+.zgs_left{
+    width: 50%;
+    height: 110px;
+    overflow: hidden;
+}
+.jytj_zgs{
+    width: 95%;
+    height: 110px;
+    margin: 16px auto;
+    display: flex;
+    border-bottom:1px solid #d0cece3b; 
+    justify-content: space-between;
+    overflow: hidden;
+}

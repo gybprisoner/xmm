@@ -1,0 +1,31 @@
+.ysghheadzhuye{
+    z-index: 9999;
+    position: relative;
+}
+.shangczhuye{
+    height: 82px;
+}
+.centerzhuye{
+    overflow: auto;
+    overflow: hidden;
+    animation:fadeInLeftBig 0.4s;
+}
+/* div{
+    background-color: white;
+} */
+.img1zhuye{
+    width: 14%;
+    position: fixed;
+    left: 43%;
+    bottom: 0.5rem;
+}
+.mint-tabbar>.mint-tab-item{
+  color: #999;
+  border-top: 1px solid #d0cece3b;
+  font-size: 20px;
+  line-height: 25px;
+}
+.mint-tabbar>.mint-tab-item.is-selected{
+    color:#998278  !important;
+    background-color:#d8d2d238 !important;
+}

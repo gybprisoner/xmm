@@ -1,0 +1,30 @@
+.wdqb{
+    animation:fadeInRightBig 0.4s;
+}
+.two{
+    color: #aba9a9;
+    font-size: 32px;
+}
+.tx_one>span:nth-child(1){
+    font-size: 26px;
+}
+.tx_one{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    color: #998278;
+}
+.wd_tx:hover{
+    background-color: #ccab9d33;
+    color: white;
+}
+.wd_tx{
+    width: 100%;
+    height: 50px;
+    background-color: #f5f5f569;
+    border-bottom:1px solid #d0cece3b; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}

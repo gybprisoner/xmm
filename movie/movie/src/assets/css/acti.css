@@ -1,0 +1,57 @@
+.activity{
+    background:#fff;
+    min-height:100%;
+    animation:fadeInRightBig 0.4s;
+}
+.event{
+    padding:12px;
+}
+.event img{
+    max-width:100%;
+    margin:10px auto;
+    display:block;
+}
+.event p{
+    font-family:黑体;
+    font-size:14px;
+    line-height:1.6;
+    margin-bottom:10px;
+    color:#8f8f94;
+    
+}
+.event .pptitle{
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.but{
+    display:flex;
+    width:100%;
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:50px;
+    background:#f9f9f9;
+    padding:0;
+}
+.but01{
+    width:60%;
+    text-align:center;
+    line-height:50px;
+    color:#46423f;
+    font-size:12px;
+}
+.but02{
+    text-align:center;
+    width:40%;
+    height:40px;
+    background:#ccc;
+    margin-top:5px;
+    line-height:40px;
+    font-size:16px;
+    color: #fff;
+}
+.but span{
+    margin:5px;
+}

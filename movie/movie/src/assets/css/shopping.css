@@ -1,0 +1,236 @@
+.sp_bg{
+    background: rgb(241, 241, 241);
+    animation:fadeIn 0.8s;
+}
+.pos{
+ height:45px;
+ background: rgb(241, 241, 241);
+}
+/*页头*/
+.sp_top{
+   display: flex;
+   justify-content:center;
+   padding: 3% 3% 3% 1%;
+   background: #fff;
+   position: fixed;
+   width:100%;
+   top:0;left:0;
+   z-index: 10;
+}
+.sp_float{
+    margin-top:1%; 
+   font-size: 2.5rem;
+}
+.sp_top>div{
+   width:33.33333%;
+   
+}
+.shourigth{
+    text-align: right;
+    padding-right:1%;
+}
+.sp_top_sp{
+   text-align: center;
+   font-size:18px; 
+}
+
+/*内容1*/
+.gu{
+    background: #fff;
+    margin-top:4%;
+}
+.gu_1{
+   display: flex;
+   justify-content: space-between;
+   padding: 2% 5% 0% 2% ;
+}
+.gu_1 p{
+   margin:0; 
+   color:#000;
+}
+.gu_1_l{
+   display: flex;
+}
+.gu_1_l>div{
+   font-size:20px;
+   /* margin-left:1%; */
+}
+/*物品*/
+.wupin{/*总div*/
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 130px; 
+   background: #fff;
+}
+.wupin_inp{/*左边单选*/
+    width:5%;
+    text-align: center;
+}
+.wupin_inp input{
+    width:15px;
+    height: 15px;
+}
+.wupin_img{/*图片*/
+   width:25%;
+   height:92px;
+   overflow: hidden;
+   border-radius:3px; 
+}
+.wupin_img img{
+   width:100%;
+   border-radius:3px; 
+}
+.wupin_intro{/*右边*/
+    width:58%;
+    align-self:flex-end;
+    height: 111px;
+}
+.wupin_intro p{
+    margin: 0;
+}
+.wupin_intro_p1{
+    color: #000;
+    font-size:15px;
+    /* margin-top: 1%;  */
+}
+.wupin_intro_p2{
+    
+    width:100%;
+    height:25px;
+    background: rgb(241, 241, 241);
+    line-height: 25px;
+    padding-left: 3%;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+      margin-top: 3% !important;  
+}
+
+
+
+.wupin_money>span:first-child{
+   color: rgb(218, 68, 68);
+   font-size: 12px;
+}
+.wupin_money>span:last-child{
+   color: rgb(255, 29, 29);
+    font-size: 18px;
+}
+.wupin_but{
+   display: flex;
+   align-items: center;
+}
+.wupin_add{/*加减*/
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   margin-top:2%;
+   }
+.wupin_but button{
+   padding: 3px 5px 3px 5px ;
+   border: none;
+   font-size: 22px;
+   text-align: center;
+   background: #fff;
+   
+
+
+}
+.add_inp{/*加减输入框*/
+   background: #fff;
+   width:30px !important;
+   margin: 0 !important;
+   padding: 0 !important;
+   margin: 0 !important;
+   height: 50% !important;
+   text-align: center !important;
+   border: none !important;
+}
+
+
+/*底部导航*/
+.wupin_bto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 3%; */
+    position: fixed;
+    left:0;bottom: 0;
+    width: 100%;
+     background: rgb(247, 244, 244);
+}
+/*全选*/
+.bto_quan{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    /* padding-bottom:2%;  */
+}
+.bto_quan p{
+    margin: 0;
+    font-size:16px;
+    color: #000;
+    margin-left:3%;
+}
+.bto_quan input{
+    width:17px;
+    height: 17px;
+}
+
+/*右边*/
+.bto_he{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+/*合计*/
+.bto_he_money{
+    display: flex;
+    width:90%;
+    justify-content:center;
+    align-items: center;
+    /* padding-left:8%;  */
+}
+.bto_he_money p{
+    margin: 0;
+}
+
+.bto_he_s1{
+    color:rgb(218, 68, 68);
+    font-size: 10px;
+    margin-right:2%;
+}
+.bto_he_s2{
+    color:rgb(255, 13, 13);
+}
+/*结算*/
+.bto_he_jie{
+    text-align: center;
+    background: #ff5500;
+    width:70%;
+    height:45px;
+    line-height: 45px;
+    color: #fff;
+}
+.btbt{
+    height:45px;
+    background: #fff;
+}
+
+
+.shanchu{
+    width:70%; 
+    background: rgb(245, 26, 26);  
+}
+.kong{
+    width:90%;
+}
+.bto_quan div{
+    background: rgb(247, 244, 244);
+    
+}
+.bto_quan .mint-cell-wrapper{
+    padding-bottom:4%;  
+}

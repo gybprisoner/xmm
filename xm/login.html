@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+           background-color:rgb(38,38,38);
+       }
+       .logindiv{
+           width:440px;
+           margin:0px auto;
+       }
+       .logindiv .login-title{
+           height:55px;
+           line-height:55px;
+           background-color:rgb(201,201,201);
+           color:#555;
+           padding:0px 20px;
+       }
+       .logindiv .login-body{
+           height:400px;
+           background-color:white;
+       }
+       .login-body .login-body-inner{
+           padding:45px 55px;
+       }
+       .loginline{
+           margin:20px auto;
+       }
+       .loginline input{
+           width:100%;
+           height:40px;
+           line-height:40px;
+           box-sizing:border-box;
+           padding:0px 5px;
+       }
+       .iosbutton{
+           height:40px;
+           line-height:40px;
+           background-color:rgb(100,198,246);
+           color:white;
+           text-align:center;
+           border-radius:5px;
+           cursor:pointer;
+       }
+       .getpassworddiv{
+           width:600px;
+           margin:0px auto;
+       }
+       .getpassword{
+           text-align:center;
+           cursor:pointer;
+           font-size:12px;
+           color:gray;
+       }
+       .getpassworddiv .getpasswordiframe{
+           width:100%;
+       }
+   </style>
+</head>
+<body>
+    <div id="content" class="logindiv" >
+        <div class="login-title">
+            会员登录
+        </div>
+        <div class="login-body">
+            <div class="login-body-inner">
+                <div class="loginline">
+                    <input data-bind="value: Mobile" data-old="" type="tel" placeholder="手机号" />
+                </div>
+                <div class="loginline">
+                    <input data-bind="value: Password" data-old="" type="password" placeholder="密码" />
+                </div>
+                <div class="loginline">
+                    <div class="iosbutton">登 录</div>
+                </div>
+                <div class="loginline">
+                    <div class="tip" style="text-align: center">请登录您的铂爵旅拍VIP会员号</div>
+                </div>
+                <div class="loginline">
+                    <div class="message"></div>
+                </div>
+                <div class="getpassword">
+                    <a>新用户注册</a>
+                    &nbsp;&nbsp;
+                    <a>找回密码</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="getpassworddiv" style="display:none">
+        <iframe src="resetpass.aspx?page=small" class="getpasswordiframe" frameborder="0" style="border:none"></iframe>
+    </div>
+</body>
+</html>

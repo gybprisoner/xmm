@@ -1,0 +1,11 @@
+    .dxlb{
+    width: 100%;
+    height: 180px;
+    }
+    /* 要移动的 */
+    .lyingc{
+    overflow: hidden;
+    width: 100%;
+    height: 180px;
+    background-color: pink;
+    }
